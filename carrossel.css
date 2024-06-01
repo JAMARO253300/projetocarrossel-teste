@@ -23,7 +23,6 @@ body{
 
 header{
 
-    /*background-color: blue;*/
     width: 80%;
     height: 50px;
     display: flex;
@@ -36,7 +35,6 @@ header{
 
 header a{
 
-/*background-color: blue;*/
     color: #eee;
     margin-right: 40px;
     font-weight: 300px;   
@@ -158,7 +156,6 @@ header a{
 }
 
 .container .thumb .thumb-item img{
-    background-color: blue;
 
     width: 100%;
     height: 100%;
@@ -169,14 +166,12 @@ header a{
 
 .container .thumb .thumb-item .content{
 
-    background-color: blue;
    position: absolute;
    bottom: 10px;
    left: 10px;
 }
 
 .container .arrows {
-    background-color: blue;
 
 
     display: flex;
