@@ -1,0 +1,170 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+
+    /*todo CSS deve comecar assim sempre
+text decoration e a linha que fica debaixo dos links
+margin zero e padding zero retira a margem adrao dos navegadores
+e box sizing border box organiza automatizamente tudo que estiver dentro do body*/
+}
+
+body{
+
+
+    background-color: #000;
+    color: #eee;
+    font-size: 12px;
+}
+
+header{
+
+    /*background-color: blue;*/
+    width: 80%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position:relative;
+    z-index: 2;
+    margin: auto;
+    
+}
+
+header a{
+
+/*background-color: blue;*/
+    color: #eee;
+    margin-right: 40px;
+    font-weight: 300px;   
+
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    margin-top:-50px;
+    overflow: hidden;
+
+}
+
+.container .list .list-item{
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+
+
+}
+
+.container .list .list-item img{
+
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    filter: brightness(50%);
+}
+
+.container .list .list-item .content{
+
+    
+
+    position: absolute;
+   top: 20%;
+   right: 10%;
+   padding-right: 30%;
+    width: 80%;  
+    color: #eee;
+    text-shadow: 0px 44px 10px #0004 ;
+}
+
+.container .list .list-item .title{
+
+    
+    font-size: 5em;
+    font-weight: 700;
+    line-height: 1.3em;
+
+
+
+
+}
+
+.container .list .list-item .description{
+    font-size: 1.5em;
+    
+}
+
+.container .list .list-item .buttons{
+
+    display: grid;
+    grid-template-columns: repeat(2,130px);
+    grid-template-rows: 50px;
+    margin-top: 20px;
+    gap: 5px;
+}
+
+.container .list .list-item .buttons button{
+
+    border: none;
+    background-color: #eee;
+    letter-spacing: 3px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.container .list .list-item .buttons button:nth-child(2){
+
+    background-color: transparent;
+    border: 1px solid #eee;
+    color: #eee;
+
+}
+
+.container .list .list-item .buttons button:hover{
+
+    background-color:transparent ;
+    border: 1px solid #eee;
+    color: #eee;
+    transition: 0.7s;
+}
+.container .list .list-item .buttons button:nth-child(2):hover{
+
+    background-color:#eee;
+    color: black;
+    transition: 0.7s;
+
+}
+
+.container .thumb{
+    
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    display: flex;
+    gap: 20px;
+}
+
+.container .thumb .thumb-item{
+
+    width: 135px;
+    height: 200px;
+    position:relative ;
+}
+
+.container .thumb .thumb-item img{
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+   border-radius: 10px;
+   filter: brightness(80%);
+}
+
+
+
+
